@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &_menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+
+    button {
+      padding-inline: 10px;
+      padding-block: 5px;
+      border: 1px solid #d6dac8;
+      border-radius: 3px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &_button-history {
+      background-color: transparent;
+
+      &:hover {
+        background-color: gray;
+      }
+    }
+
+    &_button-list {
+      background-color: #9cafaa;
+
+      &:hover {
+        background-color: #1b1d1c;
+      }
+    }
+
+    span {
+      padding-left: 5px;
+    }
+  }
+}

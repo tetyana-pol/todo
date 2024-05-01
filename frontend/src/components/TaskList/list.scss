@@ -1,0 +1,50 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  min-width: 20%;
+  max-width: 30%;
+  width: 100%;
+
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border-top: 1px solid #d3d8dc;
+    border-bottom: 1px solid #d3d8dc;
+    padding-block: 5px;
+
+    &-right {
+      span {
+        margin-right: 6px;
+      }
+
+      button {
+        border: 0;
+        background-color: transparent;
+        position: relative;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &_button {
+    width: 100%;
+    padding-block: 6px;
+    border: 1px dashed #d3d8dc;
+    border-radius: 5px;
+    background-color: transparent;
+
+    span {
+      padding-left: 5px;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

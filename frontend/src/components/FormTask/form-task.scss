@@ -1,0 +1,30 @@
+.form_task {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-content {
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+}

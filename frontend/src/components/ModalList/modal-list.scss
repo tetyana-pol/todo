@@ -1,0 +1,18 @@
+.modal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  border: 1px solid #d6dac8;
+  border-radius: 3px;
+  padding: 30px;
+
+  button {
+    span {
+      padding-left: 5px;
+    }
+  }
+}
